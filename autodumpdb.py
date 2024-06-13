@@ -12,8 +12,8 @@ csrf_token = "OchUUX12u596nfL35BgIIrYeCljQPSC01hZd459J"
 xsrf_token = "eyJpdiI6IkhobjNmTEprK1ZIZDZybG5USVUzMWc9PSIsInZhbHVlIjoibzFSVkFOMmtUbTNHMmR0NDgzb1o4NFV4dmRXR0VGTFJqenZCNldCOUFNZTJBYlZwcTFUV0MzTjREWkg2NVFrWnV1RVhDeGVKcVVTdE9pWkhLVWxMcEF2QUpHdEVCakRLMEFlZ1NnS1FtZCtJUHFpd3ozNE5VMC9Ka0VMQU9UU2EiLCJtYWMiOiI1YzBkMjkzYjdkNmQzMzc4ZmJkZGFiZTgzYmUzMjFhODAyMjQ1OWIyODc0NGM3MGZjNGM0MzcwMDdjNzU5ZmVjIiwidGFnIjoiIn0%3D"
 laravel_session = "eyJpdiI6IitmeWVnYnJiUDVkMmk2V3dZMHdzeUE9PSIsInZhbHVlIjoiUithWkJFc1dqbnh1ZEwvWlBvd2tTd0gxVTBSM2RwTXRMVVJvUWd1anNXREMzM3NQWUNzcU9sQWsvZjRZem5jMzdpMkdpdVowSndIK3JtbWxRNTAzeFZNQmxvRTNUdU5yeFhjN2JBTU44eDcrY29iSFp5TENXMjlPYWZUNEtwSnoiLCJtYWMiOiIwZDJhNGUyNTAxOTc2M2E5Y2EzZTAyYWE1ODE3OTdlNWRmYTcwY2FlMzk1NWIzNzIwNThmYjM2NTU1MDYzYWQzIiwidGFnIjoiIn0%3D"
 
-proxy = {"http": "127.0.0.1:8080"}
-# proxy = {}
+#proxy = {"http": "127.0.0.1:8080"}
+proxy = {}
 
 headers = {
     "Cookie": "XSRF-TOKEN=%s; laravel_session=%s" % (xsrf_token, laravel_session),
